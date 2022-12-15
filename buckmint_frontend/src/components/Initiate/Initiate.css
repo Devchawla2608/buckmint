@@ -1,0 +1,21 @@
+.initiate {
+  width: 243px;
+  height: 48px;
+  background: #32baaa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.initiate > span {
+  width: 76px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fcfcfc;
+}

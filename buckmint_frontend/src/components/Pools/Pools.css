@@ -1,0 +1,17 @@
+.pools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.pools_section3 {
+  top: 200px;
+}
+.pools_section4 {
+  position: absolute;
+  top: 400px;
+}

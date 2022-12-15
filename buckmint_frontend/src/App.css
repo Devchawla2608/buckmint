@@ -1,0 +1,17 @@
+html {
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* z-index: -2; */
+}
+
+/* .sideBar {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+} */
+
+/* ************************ */

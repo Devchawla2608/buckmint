@@ -1,0 +1,74 @@
+.home {
+  border: 2px solid black;
+  width: 1465px;
+  height: 100vh;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
+  padding: 0px 72px;
+}
+
+.home::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+
+.section1 {
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 31px;
+
+  position: absolute;
+  top: 57px;
+  right: 72px;
+}
+.tokens {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 31px;
+
+  position: relative;
+  top: 163px;
+}
+.section2 {
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 31px;
+
+  position: absolute;
+  top: 379px;
+  right: 72px;
+}
+
+ {
+  /* <div className="dropdown_container">
+  <div className="button1">
+    <img src={refereshIcon} alt="connect" className="refreshImage" />
+    <h1 className="button1Heading"> Polygon Testnet</h1>
+    <img src={dropdownIcon} alt="dropdownIcon" className="dropdownImage" />
+  </div>
+
+  <div className="dropdown" onClick={styles}>
+    <div className="dropdownOptions">
+      <img src={refereshIcon} alt="connect" className="refreshImage" />
+      <h1 className="button1Heading"> Polygon Testnet</h1>
+    </div>
+    <div className="dropdownOptions">
+      <img src={refereshIcon} alt="connect" className="refreshImage" />
+      <h1 className="button1Heading"> Celo Testnet</h1>
+    </div>
+  </div>
+</div> */
+}

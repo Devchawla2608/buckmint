@@ -1,0 +1,20 @@
+.show {
+  display: block;
+  border: 2px solid black;
+  position: relative;
+  top: -50px;
+
+  /* background-color: black; */
+}
+
+.hide {
+  display: none;
+  border: 2px solid black;
+  background-color: red;
+}
+.f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

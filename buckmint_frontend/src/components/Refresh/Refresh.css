@@ -1,0 +1,26 @@
+.refresh {
+  width: 243px;
+  height: 48px;
+  border: 0.5px solid #32baaa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.refresh > span {
+  width: 76px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #32baaa;
+}
+.refresh > img {
+  width: 23.62px;
+  height: 23.62px;
+}

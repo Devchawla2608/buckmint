@@ -1,0 +1,86 @@
+.Overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.side {
+  width: 19%;
+}
+
+.home {
+  height: 100vh;
+  overflow-y: scroll;
+  width: 81%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+.section1 {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  gap: 31px;
+  padding: 15px;
+  position: absolute;
+  top: 57px;
+  right: 0px;
+}
+.section2 {
+  width: 100%;
+  position: absolute;
+  top: 163px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  z-index: -2;
+}
+.section3 {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 379px;
+
+  right: 0px;
+  padding: 15px;
+}
+.section3 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  height: 100%;
+}
+.section3 > h1 {
+  width: 327px;
+  height: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+
+  color: #000000;
+}
+.section4 {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  gap: 80px;
+  padding: 15px;
+}

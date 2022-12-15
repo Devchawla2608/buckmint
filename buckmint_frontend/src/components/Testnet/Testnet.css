@@ -1,0 +1,84 @@
+.dropdown_container {
+  cursor: pointer !important;
+  z-index: 1 !important;
+}
+.button1 {
+  width: 30rem !important;
+  height: 5rem !important;
+  border: 1px solid #32baaa !important;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.1)) !important;
+  border-radius: 6px !important;
+  position: relative !important;
+  background-color: white;
+}
+.btn-secondary {
+  background-color: #ffffff !important;
+}
+
+.dropdownImage {
+  position: absolute;
+  top: 18px;
+  right: 35px;
+  width: 24.34px;
+  height: 12.45px;
+}
+.refreshImage {
+  position: absolute;
+  top: 12px;
+  left: 35px;
+  width: 23.62px;
+  height: 23.62px;
+}
+.button1Heading {
+  position: absolute;
+  width: 157px;
+  height: 24px;
+  left: 75px;
+  top: 12px;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #32baaa;
+}
+.dropdown {
+  display: none;
+}
+
+.dropdown_container:hover > .dropdown {
+  display: block;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: none;
+}
+.dropdownOptions {
+  width: 100% !important;
+  height: 4.9rem !important;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.1)) !important;
+  border-radius: 6px !important;
+  position: relative !important;
+  background-color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 12px;
+}
+.dropdownOptions:hover {
+  background-color: #c5eee6 !important;
+}
+.dropdownOptions > h1 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #32baaa;
+  text-align: left;
+}
+.dropdown-menu {
+  width: 100% !important;
+}
